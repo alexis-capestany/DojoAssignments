@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+#wrapper{
+height: auto;
+background-image: url("love.jpg");
+width: 970px;
+overflow: hidden;
+}
+
+#wrapper img{
+opacity: 0.5;
+}
+
+#header{
+  border-bottom: 2px solid black;
+
+}
+table{
+position: relative;
+bottom:210px;
+left:250px;
+}
+th{
+margin: 250px;
+
+}
+#main{
+  display: inline-block;
+
+}
+
+#survey p{
+  position: relative;
+  left:200px;
+  top:20px;
+
+}
+.topnav{
+display: inline;
+word-spacing: 40px;
+
+}
+button{
+width:100px;
+position: absolute;
+left:460px;
+
+
+}
+textarea{
+width:200px;
+height:18px;
+position: relative;
+left: 300px;
+}

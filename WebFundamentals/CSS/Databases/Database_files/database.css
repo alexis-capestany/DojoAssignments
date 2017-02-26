@@ -1,0 +1,51 @@
+*{
+  margin:0px;
+  padding: 0px;
+  outline: 1px dotted red;
+}
+#wrapper{
+  width:970px;
+  background:-webkit-radial-gradient(#433b58,#1b0b11);
+  margin:0px auto;
+  padding: 20px;
+}
+
+#header{
+  background-color: white;
+
+}
+
+#header img{
+width: 200px;
+
+}
+#navbar{
+
+}
+
+#main img{
+width: 400px;
+height: 300px;
+
+}
+#mainwords{
+
+}
+
+#subcontent{
+display: inline;
+
+}
+.subbuds{
+display: inline-block;
+}
+.readmore{
+background-color: #596F9F;
+border-radius: 30px;
+border: 10px black;
+width: 200px;
+padding-left:50px;
+}
+.navtabs{
+
+}

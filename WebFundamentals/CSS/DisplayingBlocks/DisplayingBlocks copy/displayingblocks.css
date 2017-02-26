@@ -1,0 +1,73 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+#wrapper{
+  height: auto;
+  width: 1200px;
+  background-color: #D4D4AB;
+  height:auto;
+  margin:0px auto;
+}
+#header{
+background-color: #D4D4AB;
+width: 100px;
+height: auto;
+display: inline;
+
+}
+
+#github{
+  height:100px;
+  width:200px;
+  display: inline-block;
+  margin-left: 140px;
+}
+#header h1{
+  position: absolute;
+  top: 60px;
+  left: 1240px;
+}
+
+#catandninja{
+margin-left: 350px;
+height:100px;
+width:200px;
+display: inline-block;
+
+}
+#body{
+  display: inline-block;
+  width: 800px;
+  height: auto;
+  margin-left: 200px;
+}
+.blueblock{
+background-color: #76B2F2;
+display: inline-block;
+border: 3px solid black;
+padding: 10px;
+}
+
+.redblock{
+background-color: #FF5269;
+display: inline-block;
+border: 3px solid black;
+padding: 10px;
+
+}
+#row1{
+  display: block;
+}
+#row2{
+  display: block;
+}
+#row3{
+  display: block;
+}
+#row4{
+  display: block;
+}
+#row5{
+  display: block;
+}

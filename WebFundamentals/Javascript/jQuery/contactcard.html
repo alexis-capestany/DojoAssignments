@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Card</title>
+    <script type="text/javascript" src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+
+     $(document).on("click", ".butt", function(){
+
+       var first = $("#first").val();
+        var last = $("#last").val();
+        var description = $("#description").val();
+        console.log(first,last,description);
+        $("#cards").prepend("<div class='card1'><h1>"+first+" "+last+"</h1><button class='flip' style='button'>Flip</button></div>");
+        $("#cards").append("<div class='card2'><h1>"+description+"</h1><button class='flip' style='button'>Flip</button></div>");
+
+     });
+
+     $(document).on("click", ".flip", function(){
+        $(this).siblings().toggle();
+
+     });
+
+   });
+    </script>
+    </head>
+    <body>
+        <form id="form1" action="index.html" method="post">
+          First name:<input type="text" id="firstname" value="">
+          Last name:<input type="text" id="lastname" value="">
+          Description:<input type="text" id="des" value="">
+          <input type="submit" value="Submit">
+        </form>
+    </body>
+  </html>

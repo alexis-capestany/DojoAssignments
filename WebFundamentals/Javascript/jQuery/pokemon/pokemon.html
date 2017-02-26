@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon</title>
+    <link rel="stylesheet" style="pokemon.css" href="pokemon.css">
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      function pokemon(){
+        for(var i=1; i<152; i++){
+            $('body').append('<img id="'+i+'" src="http://pokeapi.co/media/img/' + i + '.png" >');
+        }
+      //   $(document).on("img", "click" function(){
+      //   $.get("http://pokeapi.co/api/v1/pokemon/" + $(this).attr("id")  +"/",function(res){
+      //     $('#info').append("<h2>" + res.height + "</h2");
+      //     $('#info').append("<h2>" + res.weight + "</h2");
+      //     for(var i=0; i<res.types.length; i++){
+      //       $('#info').append("<h2>" + res.types[i].name + "</h2");
+      //     }
+      //   }, 'json');
+      // });
+      }
+      pokemon();
+      $(document).on("click", "img", function(){
+        $.get("http://pokeapi.co/api/v1/pokemon/" + $(this).attr("id")  +"/",function(res){
+          var html_str= "";
+          html_str += "<p>" + res.height + "</p>";
+          html_str +="<p>" + res.weight + "</p>";
+          for(var i=0; i<res.types.length; i++){
+            html_str +="<p>" + res.types[i].name + "</p>";
+          }
+          $('#info').html(html_str);
+
+          // for(var i=0; i<res.height; i++){
+          //   $('#info').html("<h2>" + res.height[i].name + "</h2>");
+        }, 'json');
+
+      });
+    });
+
+
+    </script>
+  </head>
+  <body>
+    <div id="info">
+    </div>
+
+  </body>
+</html>

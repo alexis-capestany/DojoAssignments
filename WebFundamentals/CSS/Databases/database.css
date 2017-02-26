@@ -1,0 +1,112 @@
+*{
+  margin:0px;
+  padding: 0px;
+  outline: 1px dotted red;
+}
+#wrapper{
+  background:-webkit-radial-gradient(#433b58,#1b0b11);
+  margin:0px auto;
+  padding: 10px;
+  height: auto;
+  width: 1200px;
+}
+
+#header{
+  background-color: white;
+  width: auto;
+  height: 180px;
+
+}
+#dbname{
+display:inline-block;
+position: relative;
+width: 200px;
+height: 150px;
+left: 20px;
+top: 10px;
+}
+
+#learn{
+display: inline-block;
+position: relative;
+left: 500px;
+bottom: 20px;
+
+}
+#navbar{
+background-color: white;
+word-spacing: 70px;
+height: 40px;
+border: 1px solid black;
+width: auto;
+padding-left: 60px;
+}
+
+#main {
+width: 1200px;
+height: auto;
+
+
+}
+#main h2{
+  height: 30px;
+  width: auto;
+  background-color: grey;
+
+}
+#main h3{
+  height: 30px;
+  width: auto;
+  background-color: grey;
+}
+
+#db{
+border: 5px solid grey;
+margin: 10px;
+}
+#mainwords{
+background-color: #EFF7FB;
+font-size: 13px;
+display: inline-block;
+margin-left: 230px;
+width: 380px;
+margin-bottom: 70px;
+margin-top: 50px;
+}
+
+#subcontent{
+display: inline-block;
+height: auto;
+width: 1200px;
+background-color: #918C9B;
+}
+.subbuds img{
+width: 200px;
+height: 105px;
+
+}
+.subbuds{
+display: inline-block;
+vertical-align: top;
+margin-left: 10px;
+width: 250px;
+height: 400px;
+background-color: #Acb7CC;
+}
+
+.readmore{
+background-color: #596F9F;
+border-radius: 30px;
+border: 10px black;
+width: 100px;
+position: relative;
+padding-left:50px;
+
+
+}
+.Navtabs{
+word-spacing: 15px;
+height: 15px;
+border: 1px solid black;
+padding: 10px 50px;
+}

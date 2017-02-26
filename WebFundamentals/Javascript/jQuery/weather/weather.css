@@ -1,0 +1,14 @@
+*{
+  display: inline-block;
+  width:970px;
+  height: auto;
+}
+
+#wrapper{
+  background-color: #7FDBFF;
+
+}
+
+h1{
+color:blue;
+}

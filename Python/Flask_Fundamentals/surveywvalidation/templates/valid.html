@@ -1,0 +1,32 @@
+<html>
+    <head>
+       <title>Dojo Survery</title>
+    </head>
+    <body>
+      <h2> This is my Dojo Survery </h2>
+      <p> {{ greeting }}
+
+      <form action='/results' method="post">
+          <input type='text' placeholder = 'name' name = 'name'>
+          <select type="option" name="location" value="" placeholder="location">
+            <option value="Seattle"> Seattle </option>
+            <option value="Chicago"> Chicago </option>
+            <option value="New York"> New York </option>
+            <option value="Washington DC"> Washington DC</option>
+            <option value="Dallas"> Dallas </option>
+            <option value="Silicon Valley"> Silicon Valley</option>
+          </select>
+          <select name="language" id="">
+            <option value="Seattle"> Javascript </option>
+            <option value="Chicago"> Python</option>
+            <option value="New York"> C# </option>
+            <option value="Washington DC"> Ruby</option>
+            <option value="Dallas"> Swift </option>
+            <option value="Silicon Valley"> PHP</option>
+          </select>
+          <label>Description:</label>
+          <textarea name = 'description'></textarea>
+          <input type='submit' value='submit'>
+      </form>
+    </body>
+</html>

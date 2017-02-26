@@ -1,0 +1,59 @@
+*{color:white;
+  marigin: 0px;
+  padding: 0px;
+
+}
+  #Wrapper{
+    width: 1000px;
+    background-color:navy;
+    margin: 0px auto;
+    padding:20px;
+  }
+
+  #Header{
+    background-color: red;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+  #Color{
+    margin-bottom: 20px
+  }
+
+
+  #Body{
+    padding: 15px;
+   height: 400px;
+   width: 734px;
+   background-color: black;
+   display: inline-block;
+   margin-left: 15px;
+   border-radius: 20px;
+   padding-left: 30px;
+
+  }
+
+  #Navigation{
+    height: 250px;
+    width: 197px;
+    background-color: teal;
+    display: inline-block;
+    vertical-align: bottom;
+    vertical-align: top;
+    border-radius:20px;
+
+  }
+  #list{
+    margin-left: 40px;
+  }
+
+  #Ad{
+    margin-top: 25px;
+   height: 65px;
+   width: 1000px;
+   background-color: grey;
+   display:inline-block;
+   border-radius: 20px;
+   padding: 8px;
+  }

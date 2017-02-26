@@ -1,0 +1,14 @@
+Automatic Speech Recognition: 
+Examples: for the timz —> Forty Times? For Tea Times? For Tee Times? CONTEXT is IMPORTANT
+
+Utterances and Intents:
+Alexa (wake up) ask (launch) Whats the weather (invocation name) for a fact (utterance) 
+add more launch words: ask, begin, do, launch, load, open, play, resume, run, start, talk to, tell, use 
+
+
+Investing in voice 
+-cars 
+
+Ideas: 
+Yoga Poses 
+Business Insider 
